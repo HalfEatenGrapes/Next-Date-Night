@@ -1,0 +1,26 @@
+body {
+  display: block;
+  height: 100vh;
+  background: url("./jamie-street-hBzrr6m6-pc-unsplash.jpg");
+  background-size: cover;
+  background-color: rgb(238, 174, 202);
+}
+#H1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 4px;
+  margin: 0;
+}
+form {
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}

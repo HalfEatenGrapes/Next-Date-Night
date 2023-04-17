@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="NDNstyle.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="H1">Next Date Night</h1>
+    <p>
+      Welcome to Next Date Night! We are here to help you find the perfect date
+      night for you and your partner. Please answer the following questions to
+      get started.
+    </p>
+    <div class="container">
+      <form id="input">
+        <div class="row"">
+        <div class="guide">
+          <label for="time">How much time do you have</label>
+        </div>
+        <div class="selection">
+          <select name="time" id="time">
+            <option value="time" disabled selected>~~⏰~~</option>
+            <option value="15m">15 mins</option>
+            <option value="30m">30 mins</option>
+            <option value="60m">1 hour</option>
+            <option value="120m">2 hours</option>
+            <option value="day">Full day</option>
+          </select>
+        </div>
+
+        <div class="row"">
+        <div class="guide">
+          <label for="cost">How much do you want to spend?</label>
+        </div>
+        <div class="selection">
+          <select name="cost" id="cost">
+            <option value="cost" disabled selected>~~💵~~</option>
+            <option value="0d">Free</option>
+            <option value="20d">less than $20</option>
+            <option value="50d">less than $50</option>
+            <option value="100d">less than $100</option>
+            <option value="more">more than $100</option>
+          </select>
+        </div>
+
+        <div class="row"">
+        <div class="guide">
+          <label for="family">Family Friendly?</label>
+        </div>
+        <div class="selection">
+          <input type="checkbox" id="family" name="family" />
+        </div>
+
+        <div class="row"">
+        <div class="guide">
+          <label for="planned">Do you need to plan ahead?</label>
+        </div>
+        <div class="selection">
+          <input type="checkbox" id="planned" name="planned" />
+        </div>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <script src="./NDNscript.js"></script>
+  </body>
+</html>
